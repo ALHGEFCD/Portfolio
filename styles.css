@@ -152,6 +152,7 @@ nav{
 }
 .about-col-2{
     flex-basis: 60%;
+    text-align: justify;
 }
 
 .sub-title{
