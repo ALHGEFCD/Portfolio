@@ -157,7 +157,8 @@ nav{
 .sub-title{
     font-size: 30px;
     font-weight: 600;
-    color: white;
+    -webkit-text-stroke: 0.5px gold;
+    color: rgb(0, 0, 0);
 }
 
 .tab-titles{
@@ -403,13 +404,17 @@ nav{
     .header-text{
         font-size: 20px;
     }
-    .header-text h1{
-        font-size: 35px;
-    }
     #container a {
-        font-size: 0.5em;
+        font-size: 0.74em;
         padding: 5px 15px;
     }
+    .nav{
+        align-items: center;
+        justify-self: center;
+    }
+    .about-col-1{
+        flex-basis: 50%;
+    }    
 }
 
 
