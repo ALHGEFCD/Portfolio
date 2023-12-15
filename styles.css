@@ -396,3 +396,21 @@ nav{
     margin: 0px 5px;
 }
 
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/Slick2.JPEG);
+    }
+    .header-text{
+        font-size: 20px;
+    }
+    .header-text h1{
+        font-size: 35px;
+    }
+    #container a {
+        font-size: 0.5em;
+        padding: 5px 15px;
+    }
+}
+
+
+
